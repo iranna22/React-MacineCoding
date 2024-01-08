@@ -1,0 +1,39 @@
+/* PaginationComponent.css */
+.pagination-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .post-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-list li {
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .pagination-buttons {
+    margin-top: 20px;
+  }
+  
+  .pagination-buttons button {
+    margin: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .pagination-buttons button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .pagination-buttons button.active {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+  }
+  
