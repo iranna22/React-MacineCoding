@@ -1,0 +1,58 @@
+.image-slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: auto;
+  }
+  
+  .slider-image {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust the maximum height as needed */
+    object-fit: cover;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    transform: translateY(-50%);
+  }
+  
+  button:hover {
+    color: #007bff;
+  }
+  
+  button.prev {
+    left: 0;
+    color: black;
+    background-color: rgba(240, 255, 255);
+  }
+  
+  button.next {
+    right: 0;
+    color: black;
+    background-color: rgba(240, 255, 255);
+  }
+  
+  .image-previews {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .preview {
+    width: 50px; /* Adjust the preview image width as needed */
+    height: 50px; /* Adjust the preview image height as needed */
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .preview.active {
+    border: 2px solid #007bff; /* Highlight style for the active image */
+  }
+  
